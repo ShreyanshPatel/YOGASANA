@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NadiShodhana">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            app:cardCornerRadius="50dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/nadishodhana" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView18"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="NADI SHODHANA"
+            android:textColor="#FF5722"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="680dp"
+            android:layout_above="@+id/button3"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVieW25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+It is pacifying for all three doshas and is a suitable practice for most anyone.\n
+Nadi Shodhanana, also known as Alternate Nostril Breathing, is a powerful breathing practice with wide reaching benefits\n
+Nadi is a Sanskrit word meaning “channel” or “flow” and shodhana means “purification.” Therefore, nadi shodhana is primarily aimed at clearing and purifying the subtle channels of the mind-body organism, while balancing its masculine and feminine aspects."
+                    android:textColor="#1B1515" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="METHOD"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVieW27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+=> Sit comfortably with your spine erect and shoulders relaxed. Keep a gentle smile on your face.\n\n
+=> Place your left hand on the left knee, and palms open to the sky or in Chin Mudra (thumb and index finger gently touching at the tips).\n\n
+=> Place the tip of the index finger and middle finger of the right hand in between the eyebrows, the ring finger and little finger on the left nostril, and the thumb on the right nostril.\n\n
+=> We will use the ring finger and little finger to open or close the left nostril and thumb for the right nostril.\n\n
+=> Press your thumb down on the right nostril and breathe out gently through the left nostril.\n\n
+=> Now breathe in from the left nostril and then press the left nostril gently with the ring finger and little finger. Removing the right thumb from the right nostril, breathe out from the right.\n\n
+=> Breathe in from the right nostril and exhale from the left. You have now completed one round of Nadi Shodhan pranayama. Continue inhaling and exhaling from alternate nostrils.\n\n
+=> Complete 9 such rounds by alternately breathing through both the nostrils. After every exhalation, remember to breathe in from the same nostril from which you exhaled.\n\n
+=> Keep your eyes closed throughout and continue taking long, deep, smooth breaths without any force or effort."
+                    android:textColor="#1B1515" />
+
+                <TextView
+                    android:id="@+id/textVieW22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BENIFITS"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVieW24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+=> Infuses the body with oxygen\n\n
+=> Clears and releases toxins\n\n
+=> Reduces stress and anxiety\n\n
+=> Calms and rejuvenates the nervous system\n\n
+=> Helps to balance hormones\n\n
+=> Supports clear and balanced respiratory channels\n\n
+=> Helps to alleviate respiratory allergies that cause hay fever, sneezing, or wheezing\n\n
+=> Balances solar and lunar, masculine and feminine energies\n\n
+=> Fosters mental clarity and an alert mind\n\n
+=> Enhances the ability to concentrate\n\n
+=> Brings balance to the left and right hemispheres of the brain.\n"
+                    android:textColor="#1B1515" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="QUANTITY"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVieW29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 MIN for daily basis, but but practicing daily for ten to fifteen minutes.
+\n\n"
+                    android:textColor="#1B1515" />
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

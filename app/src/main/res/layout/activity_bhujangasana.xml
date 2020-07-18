@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bhujangasana">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/back"
+            android:onClick="PoseDetection"
+            android:text="DETECTED POSE"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            app:cardCornerRadius="50dp"
+            tools:ignore="MissingConstraints">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:background="@drawable/bhuja"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView18"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="BHUJANGASANA"
+            android:textColor="#FF5722"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="404dp"
+            android:layout_height="268dp"
+            android:layout_above="@+id/button3"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT" />
+
+                <TextView
+                    android:id="@+id/textVieW25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1B1515"
+                    android:text="
+This asana resembles a serpent with its hood raised.\n
+Cobra Pose or Bhujangasana is part of the sequence of yoga postures in Padma Sadhana and Surya Namaskar or Sun Salutation.\n
+Bhujangasana is pronounced as BHU-jung-AAHS-uh-nuh.\n
+Bhujang = Snake (Cobra); Asana = Posture or Pose"/>
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="METHOD"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textVieW27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1B1515"
+                    android:text="
+=> Lie on your stomach with your toes flat on the floor and forehead resting on the ground.\n\n
+=> Keep your legs close together, with your feet and heels lightly touching each other.\n\n
+=> Place your hands (palms downwards) under your shoulders, keeping your elbows parallel and close to your torso. \n\n
+=> Taking a deep breath in, slowly lift your head, chest and abdomen while keeping your navel on the floor.\n\n
+=> Pull your torso back and off the floor with the support of your hands.\n\n
+=> Checkpoint: Are you putting equal pressure on both the palms?\n\n
+=> Keep breathing with awareness, as you curve your spine vertebra by vertebra. If possible, straighten your arms by arching your back as much as possible; tilt your head back and look up.\n\n
+=> Checkpoint: Are your shoulders away from your ears? Keep your shoulders relaxed, even if it means bending your elbows. With regular practice, you will be able to deepen the stretch by straightening the elbows.\n\n
+=> Ensure that your feet are still close together. Keep smiling and breathing. Smiling Cobras!\n\n
+=> Don’t overdo the stretch or overstrain yourself. \n\n
+=> Breathing out, gently bring your abdomen, chest and head back to the floor."/>
+                <TextView
+                    android:id="@+id/textVieW22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BENIFITS"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textVieW24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#1B1515"
+
+                    android:text="
+=> Opens up the shoulders and neck.\n\n
+=> Tones the abdomen.\n\n
+=> Strengthens the entire back and shoulders.\n\n
+=> Improves flexibility of the upper and middle back.\n\n
+=> Expands the chest.\n\n
+=> Improves blood circulation.\n\n
+=> Reduces fatigue and stress.\n\n
+=> Useful for people with respiratory disorders such as asthma. (Do not practice this yoga pose during the attack though).\n"/>
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

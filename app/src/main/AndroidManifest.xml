@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yogasana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Beniayurveda"/>
+        <activity android:name=".Benilifestyle" />
+        <activity android:name=".Beniwater" />
+        <activity android:name=".Benipranayam" />
+        <activity android:name=".Beniyoga" />
+        <activity android:name=".SunDiet" />
+        <activity android:name=".SatDiet" />
+        <activity android:name=".FriDiet" />
+        <activity android:name=".ThusDiet" />
+        <activity android:name=".WedDiet" />
+        <activity android:name=".TuesDiet" />
+        <activity android:name=".MonDiet" />
+        <activity android:name=".Soup" />
+        <activity android:name=".Pasta" />
+        <activity android:name=".GoldenLAtte" />
+        <activity android:name=".WhiteBeans" />
+        <activity android:name=".Chocolateballs" />
+        <activity android:name=".Makoiark" />
+        <activity android:name=".Tulsiark" />
+        <activity android:name=".YogaMat" />
+        <activity android:name=".Saunfark" />
+        <activity android:name=".Gajbanark" />
+        <activity android:name=".BadamRogan" />
+        <activity android:name=".Giloyark" />
+        <activity android:name=".JalaLotta" />
+        <activity android:name=".Gilabark" />
+        <activity android:name=".Ajwainark" />
+        <activity android:name=".Bhastrika" />
+        <activity android:name=".Bhramari" />
+        <activity android:name=".NadiShodhana" />
+        <activity android:name=".Kapalbharti" />
+        <activity android:name=".Virbhadrasana_2" />
+        <activity android:name=".Virbhadrasana_1" />
+        <activity android:name=".Paschomottanasana" />
+        <activity android:name=".Tadasana" />
+        <activity android:name=".Bhujangasana" />
+        <activity android:name=".Naukasana" />
+        <activity android:name=".Trikonasana" />
+        <activity android:name=".AdhoMukhoSvanasana" />
+        <activity android:name=".Vrikshasana" />
+        <activity android:name=".Kursiasana" />
+        <activity android:name=".Recipes"
+            android:label="RECIPES">
+
+        </activity>
+        <activity android:name=".Diet"
+            android:label="DIET">
+
+        </activity>
+        <activity android:name=".Shop"
+            android:label="PRODUCTS">
+        </activity>
+        <activity android:name=".Articales"
+            android:label="ARTICALES">
+        </activity>
+        <activity android:name=".Pranayam"
+            android:label="PRANAYAMA">
+
+        </activity>
+        <activity android:name=".Asana"
+            android:label="ASANA">
+
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".LOGIN" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

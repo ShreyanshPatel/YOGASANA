@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriDiet">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FRIDAY DIET PLAN"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nBREAKFAST ( 7 - 8 AM)"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textVieW24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+1/2 Cup Oats\n
+2 Scrambled Eggs\n
+2 Slices Turkey Bacon \n
+1 Slice Whole Grain Bread\n
+1/2 Cup Tomatoes\n"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNACKS ( 10 - 11 AM)"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+Shakeology\n
+1 Banana\n"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUNCH (12:30 - 1:30 PM)"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+2 Cups Greens\n
+1 Medium Tomatoes\n
+1/2 Grilled Chicken\n
+2 Tsp Honey\n
+Mustard Dressing\n"
+                android:textColor="#1B1515" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNACKS ( 4 - 5 AM)"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+Apple\n
+2 Tsp Natural Peanut Butter\n"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textVieW2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DINNER ( 7 - 8 AM)"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+Chicken Fajita Toastados:\n
+3/4 Cup Chicken\n
+1 Cup Broccoli\n
+1 Cup Brown Rice\n
+Stir Fry Sausce\n
+1 Tsp Coconut Oil\n"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SNACKS"
+                android:textColor="#FF5722"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+3/4 Cup Greek Yogurt\n
+2 Tsp Natural Peanut Butter\n"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
