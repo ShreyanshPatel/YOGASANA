@@ -8,6 +8,7 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 
 public class AdhoMukhoSvanasana extends AppCompatActivity {
@@ -28,5 +29,14 @@ public class AdhoMukhoSvanasana extends AppCompatActivity {
     }
 
     public void PoseDetection(View view) {
+        try {
+            Intent cam = new Intent();
+            cam.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(cam);
+        }
+        catch (Exception e ){
+            e.printStackTrace();
+        }
+
     }
 }

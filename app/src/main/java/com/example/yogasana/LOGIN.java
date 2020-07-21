@@ -2,9 +2,13 @@ package com.example.yogasana;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -28,6 +32,13 @@ public class LOGIN extends AppCompatActivity {
         assert actionBar != null;
         actionBar.setBackgroundDrawable(colorDrawable);
         button = findViewById(R.id.button2);
+
+        if (ContextCompat.checkSelfPermission(LOGIN.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(LOGIN.this,
+                    new String[]{
+                            Manifest.permission.CAMERA
+                    }, 100);
+        }
     }
 
     public void register(View view){
